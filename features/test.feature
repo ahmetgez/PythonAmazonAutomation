@@ -1,3 +1,4 @@
+#noinspection CucumberUndefinedStep
 Feature: Arts & Crafts Department
 
 
@@ -18,4 +19,4 @@ Feature: Arts & Crafts Department
     Examples:
       |browser  |
       |chrome   |
-      #|headless |
+      |headless |

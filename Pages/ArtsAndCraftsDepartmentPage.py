@@ -14,3 +14,8 @@ class ArtsAndCraftsDepartmentPage(BasePage):
     Review_Score = (By.XPATH, '//*[@id="acrPopover"]/span[1]/a/span')
     Price = (By.XPATH, '(//span[@class="a-price-whole"])[1]')
 
+    """Constructor of the page class"""
+
+    def __int__(self, driver):
+        super.__init__(driver)
+
